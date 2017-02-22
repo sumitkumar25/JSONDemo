@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON DEMO</title>
+    <link href="demo.css" rel="stylesheet">
+</head>
+<body>
+<main>
+    <section>
+        <h1>JSON Data Demo</h1>
+
+        <div class="searchBox">
+            <input type="search" placeholder="product name" id="search"/>
+        </div>
+        <table id="dataTable">
+            <thead>
+            <th>Product Id</th>
+            <th>Product Name</th>
+            <th>product Price</th>
+            <th></th>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div>
+            <button id="getList">Get product List</button>
+        </div>
+        <template id="productRow">
+            <tr>
+                <td class="p_id"></td>
+                <td class="p_name"></td>
+                <td class="p_price"></td>
+                <td class="quick_action">
+                    <button class="quick_view"> Quick View</button>
+                </td>
+            </tr>
+        </template>
+    </section>
+</main>
+<script src="Storage.js" type="text/javascript"></script>
+<script src="model.js" type="text/javascript"></script>
+<script src="view.js" type="text/javascript"></script>
+<script src="controller.js" type="text/javascript"></script>
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>

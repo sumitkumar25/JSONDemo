@@ -1,0 +1,17 @@
+main {
+    width: 1024px;
+    margin: 0 auto;
+    border: solid 1px #3f3f3f;
+    background-color: #f1f2f1;
+}
+
+table {
+    width: 768px;
+    margin: 0 auto;
+
+}
+td,th{
+    border: solid 1px #333333;
+    border-radius: 10px;
+    border-collapse: separate;
+}
